@@ -23,3 +23,4 @@ fi
 -   https://www.php.net/manual/en/install.php
 -   https://github.com/phpenv/phpenv-installer
 -   https://framework.zend.com/downloads.html
+-   https://www.php.net/manual/en/language.types.boolean.php
