@@ -7,16 +7,16 @@
 <body>
 <?php echo "Hello, World! This is PHP code";?>
 <br/>
-<?php echo "In PHP, the elvis operator makes a falsy value check. If truthy then returns the left operand and if falsy, returns the righ operand";?>
+<?php echo "In PHP, the elvis operator makes a falsy value check. If truthy then returns the left operand and if falsy, returns the right operand";?>
 <br/>
 <?php echo "In PHP, falsy values are 0, false, null, '', '0', and 0"?>
 <br/>
 <?php
-var_dump(42 ?: 0);
+var_dump(false ?: 42);
 ?>
 <br/>
 <?php
-var_dump(false ?: 42);
+var_dump(42 ?: 0);
 ?>
 <br/>
 <?php
@@ -40,11 +40,19 @@ var_dump('0' ?: 42);
 ?>
 <br/>
 <?php
+var_dump(NAN ?: 42);
+?>
+<br/>
+<?php
 var_dump(0 ?: 42);
 ?>
 <br/>
 <?php
-var_dump(NAN ?: 42);
+var_dump(0.0 ?: 42);
+?>
+<br/>
+<?php
+var_dump(-0.0 ?: 42);
 ?>
 </body>
 

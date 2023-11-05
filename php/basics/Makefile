@@ -31,5 +31,5 @@ install-php-alternative:
 	sudo apt -y install php7.4
 	sudo update-alternatives --config php
 run-example:
-	php -S localhost:8080
+	php -S localhost:8080 &
 	open http://localhost:8080
