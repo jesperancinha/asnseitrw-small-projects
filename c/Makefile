@@ -3,3 +3,4 @@ elvis-build:
 elvis-build-run:
 	gcc elvis.c -o elvis
 	./elvis
+run-example: elvis-build-run
