@@ -4,3 +4,8 @@ target
 bin
 build
 *.jar
+
+# C Builds
+*.o
+*.out
+elvis
