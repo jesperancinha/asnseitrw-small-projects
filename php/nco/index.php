@@ -7,7 +7,7 @@
 <body>
 <?php echo "Hello, World! This is PHP code";?>
 <br/>
-<?php echo "In PHP, the elvis operator makes a falsy value check. If truthy then returns the left operand and if falsy, returns the right operand";?>
+<?php echo "In PHP, the nco operator makes a falsy value check. If truthy then returns the left operand and if falsy, returns the right operand";?>
 <br/>
 <?php echo "In PHP, falsy values are 0, false, null, '', '0', and 0"?>
 <br/>

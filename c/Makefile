@@ -1,6 +1,6 @@
-elvis-build:
-	gcc elvis.c -c
-elvis-build-run:
-	gcc elvis.c -o elvis
-	./elvis
-run-example: elvis-build-run
+nco-build:
+	gcc nco.c -c
+nco-build-run:
+	gcc nco.c -o nco
+	./nco
+run-example: nco-build-run

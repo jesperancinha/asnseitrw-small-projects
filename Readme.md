@@ -3,3 +3,9 @@
 # ASNSEI The right waf - Small Projects
 
 Small projects about curiosities and small things about programming languages.
+
+## Prepare node 
+
+```shell
+nvm use --lts
+```
