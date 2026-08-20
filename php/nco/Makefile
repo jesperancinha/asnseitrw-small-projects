@@ -30,6 +30,7 @@ install-php-alternative:
 	sudo add-apt-repository ppa:sergey-dryabzhinsky/packages
 	sudo apt -y install php7.4
 	sudo update-alternatives --config php
-run-example:
-	php -S localhost:8080 &
+run-example-local: run-example
 	open http://localhost:8080
+run-example:
+	php -S localhost:8080
