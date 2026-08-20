@@ -9,3 +9,4 @@ build
 *.o
 *.out
 
+nco.h.gch

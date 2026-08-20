@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include "nco.h"
 
 int value0();
 int value42();
