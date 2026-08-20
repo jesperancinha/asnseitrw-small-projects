@@ -1,0 +1,13 @@
+version: 2.1
+
+orbs:
+  maven: circleci/maven@1.4.1
+
+workflows:
+  maven_test:
+    jobs:
+      - maven/test:
+          command: 'clean install integration-test'
+          executor:
+            name: maven/default
+            tag: '25.0'

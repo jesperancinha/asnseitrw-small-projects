@@ -1,0 +1,19 @@
+name: ARW Small Projects Build
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v7
+    - name: Set up JDK 25
+      uses: actions/setup-java@v5
+      with:
+        java-version: '25'
+        distribution: 'adopt'
+
+    - name: Build and Test
+      run:  make run-demo
