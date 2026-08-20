@@ -33,4 +33,5 @@ install-php-alternative:
 run-example-local: run-example
 	open http://localhost:8080
 run-example:
-	php -S localhost:8080
+	php -S localhost:8080 &\
+    curl --fail http://localhost:8080
